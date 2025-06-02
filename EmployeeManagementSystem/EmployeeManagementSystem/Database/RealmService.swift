@@ -18,9 +18,7 @@ class RealmService {
     
     // Realmの設定を行うメソッド
     private static func configureRealm() {
-        let config = Realm.Configuration(
-            schemaVersion: 1,
-        )
+        let config = Realm.Configuration(schemaVersion: 1)
         Realm.Configuration.defaultConfiguration = config
     }
     
